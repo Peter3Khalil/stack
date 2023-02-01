@@ -5,11 +5,11 @@ describe('Test Stack methods in case : Stack is empty', () => {
     it('isEmpty should return true', () => {
         expect(stack.isEmpty()).toBeTruthy();
     });
-    it('pop() it should return -1', () => {
-        expect(stack.pop()).toBe(-1)
+    it('pop() it should return null', () => {
+        expect(stack.pop()).toBe(null)
     });
-    it('peak() should return -1', () => {
-        expect(stack.peek()).toBe(-1);
+    it('peak() should return null', () => {
+        expect(stack.peek()).toBe(null);
     });
     it('size() should return 0', () => {
         expect(stack.size()).toBe(0);

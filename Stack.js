@@ -6,10 +6,10 @@ class Stack{
         this.items.push(element); // O(1)
     }
     pop(){
-        return this.isEmpty()? -1: this.items.pop(); // O(1)
+        return this.isEmpty()? null: this.items.pop(); // O(1)
     }
     peek(){
-        return this.isEmpty() ? -1 : this.items[this.size()-1]; // O(1)
+        return this.isEmpty() ? null : this.items[this.size()-1]; // O(1)
     }
     isEmpty(){
         return this.size() ===0; // O(1)
